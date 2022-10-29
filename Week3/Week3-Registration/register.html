@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="first" id="first">
+            <form action="submit">
+                <!-- <img src="Assets/shopping-cart.png" alt="Logo"> -->
+                <h1>Register Here</h1>
+                <p>Welcome to <span>Jam</span></p>
+                <fieldset>
+                    <legend>First Name</legend>
+                    <input type="text" name="fname"  id="fname" placeholder="First Name">
+                </fieldset>
+                <fieldset>
+                    <legend>Last Name</legend>
+                    <input type="text" name="lname"  id="fname" placeholder="Last Name">
+                </fieldset>
+                <fieldset>
+                    <legend>Phone Number</legend>
+                    <input type="tel" name="fname"  id="fname" placeholder="+234">
+                </fieldset>
+                <fieldset>
+                    <legend>E-mail</legend>
+                    <input type="text" placeholder="abcd12@gmail.com"> <br>
+                </fieldset>
+                <!-- GENDER SECTION -->
+                <div id="gender">
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="gender" style="margin-right: 20px;">Male</label> 
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="gender" style="margin-right: 20px;">Female</label>
+                <input type="radio" name="gender" id="pnts" value="pnts">
+                <label for="gender">Prefer not to say</label>  <br>
+            </div>
+                <fieldset>
+                    <legend>Date of Birth</legend>
+                    <input type="date" placeholder="dd/mm/yy"> <br>
+                </fieldset>
+                <label for="color" class="fcolor">Favourite Color</label>
+                <input type="color" name="color" id="fcolor" value="#f6b73c">
+                <button id="button"> <a href="signin.html" target="_blank">Submit</a></button> <br>
+            </form>
+            <div class="container-2" id="container-2">
+                <p> <a href="signin.html">Already have an account?</a> </p>
+                <!-- <p> <a href="#"> Can't login?</a></p> -->
+            </div>
+        </div>
+</body>
+</html>

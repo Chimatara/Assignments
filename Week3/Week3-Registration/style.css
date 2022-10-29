@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(60, 60, 143);
+}
+.container {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    top: 50px;
+    font-family: mada;
+}
+.first{
+    background-color: white;
+    height: 500px;
+    width: 60%;
+    box-shadow: 0px 5px 5px rgba(32, 31, 31, 0.5) ;
+    border-radius: 5px;
+}
+.first img {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 34px;
+}
+.first h1{
+    margin: 50px 0 0 34px;
+}
+.first p {
+    margin-left: 34px;
+}
+fieldset {
+    background-color: white;
+    border: 1px solid blue;
+    width: 450px;
+    border-bottom: 3px solid black;
+    margin: 15px 0 15px 34px;
+    padding: 3px;
+}
+label{
+    font-family: roboto;
+}
+button {
+    background: rgb(31, 31, 249);
+    color: white;
+    font-family: roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 460px;
+    border: none;
+    /* border-bottom: 3px solid blue; */
+    padding: 9px;
+    box-shadow: 0px 5px 5px rgba(123, 123, 123, 0.5) ;
+    cursor: pointer;
+    margin: 15px 0 15px 34px;   
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+input {
+    border: none;
+    background-color: white;
+}
+span {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.second {
+    background-color: aliceblue;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-left: 2px solid blue;
+}
+
+.second img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 140px;
+}
+#login {
+    margin-left: 34px;
+}
+.container-2 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    top: 50px;
+    color: blue;
+    font-family: mada;
+}
+.container-2 a {
+    text-decoration: none;
+}
+
+/* SUCCESS PAGE STYLING */
+ .success {
+    text-align: center;
+    font-size: 1.5em;
+    color: blue;  
+   position: relative;
+   top: 30px;
+} 
+.contain {
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 0px 5px 5px rgba(123, 123, 123, 0.5)
+}
+.successimg {
+    display: flex;
+    justify-content: center;
+}
+.successimg img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+   top: 40px;
+}
+.successful p {
+    text-align: center;
+    margin-top: 40px;
+}
+.successful p a {
+    text-decoration: none;
+    color: blue;
+} 
+.contain button {
+    background: rgb(31, 31, 249);
+    color: white;
+    font-family: roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 330px;
+    border: none;
+    /* border-bottom: 3px solid blue; */
+    padding: 9px;
+    box-shadow: 0px 5px 5px rgba(123, 123, 123, 0.5) ;
+    cursor: pointer;
+    margin: 55px 0 15px 34px;   
+}
+
+#first{
+    background-color: white;
+    height: 650px;
+    width: 100%;
+}
+#second {
+    display: none;
+}
+#second img {
+    position: relative;
+   bottom: 100px;
+}
+#container {
+    width: 35%;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    top: 50px;
+    font-family: mada;
+}
+#container-2 {
+    width: 40%;
+}
+#button {
+   margin-bottom: 0;
+   margin-top: 20px;
+}
+#gender {
+    margin: 15px 0 15px 34px;
+}
+legend{
+    color: blue;
+}
+#fcolor {
+    /* margin: .4rem; */
+}
+.fcolor {
+    margin: 3px 0 15px 34px;
+}
+#container h1{
+        margin: 20px 0 0 34px;
+    
+}
